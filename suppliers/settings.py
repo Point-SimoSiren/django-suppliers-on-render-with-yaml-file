@@ -67,7 +67,7 @@ WSGI_APPLICATION = 'suppliers.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-'''
+
 # Perus SQLite
 DATABASES = {
     'default': {
@@ -85,7 +85,7 @@ DATABASES = {
         conn_max_age=600
     )
 }
-'''
+
 
 # Lokaali PostgreSQL
 DATABASES = {
