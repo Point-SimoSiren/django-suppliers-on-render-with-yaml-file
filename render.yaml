@@ -2,7 +2,7 @@ databases:
   - name: suppliersdb
     plan: free
     databaseName: suppliersdb
-    user: simppa
+    user: postgres
 
 services:
   - type: web
