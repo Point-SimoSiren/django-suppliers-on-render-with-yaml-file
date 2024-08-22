@@ -1,8 +1,8 @@
 databases:
   - name: suppliersdb
     plan: free
-    databaseName: suppliersdb
-    user: postgres
+    databaseName: suppliers
+    user: simppa
 
 services:
   - type: web
