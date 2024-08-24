@@ -3,6 +3,7 @@
 # käytössä on guvicorn, joka taas ei toimi Windowsissa.
 
 from waitress import serve
+
 from suppliers.wsgi import application
 
 if __name__ == '__main__':

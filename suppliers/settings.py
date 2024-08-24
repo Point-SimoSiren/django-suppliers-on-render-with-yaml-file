@@ -67,7 +67,7 @@ WSGI_APPLICATION = 'suppliers.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-
+'''
 # Perus SQLite
 DATABASES = {
     'default': {
@@ -75,8 +75,8 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 '''
+
 # Render käytössä
 DATABASES = {
     'default': dj_database_url.config(
@@ -86,7 +86,7 @@ DATABASES = {
     )
 }
 
-
+'''
 # Lokaali PostgreSQL
 DATABASES = {
     'default': {
@@ -133,10 +133,6 @@ USE_L10N = True
 USE_TZ = True
 
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/3.2/howto/static-files/
-
-STATIC_URL = '/static/'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
